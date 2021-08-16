@@ -13,3 +13,5 @@ We're not perfect, but as long as we keep learnng and getting better every day, 
 Value around truth for wakeflow
 
 Mission to be the technology partner of choice for all of our customers
+
+We are never done learning. No matter what our level of experience, we can always find a better way to do something. We look for those ways and share them with our team. When someone asks us for something we don't do it for them, we show them how it's done.
