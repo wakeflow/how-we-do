@@ -21,6 +21,17 @@ Your PR name should be the same as your branch name, i.e. `ak/css-updates`
 
 Every PR needs to be reviewed by a code owner for the particular repo. Github is configured in such a way that merging is not possible until this has taken place.  
 
+## 4. Notify on Slack
+
+When we merge in our changes on Github, Github Actions make sure that our code is deployed automatically. 
+
+Before doing this, we want to make sure the team is alerted to the fact that a deploy is about to take place in case anything goes wrong. 
+
+To do this we send a message to the `#deploy` channel on Slack with the url of the PR we are about to merge, like so:
+![PR on slack](/images/slack-pr.png)
+
+## 6.  and Merge
+
 ## 4. Rebase and Squish
 
 Once the code owner has reviewed and approved the change, we rebase and squish our branch.
@@ -35,17 +46,6 @@ While making the changes, we might have made multiple commits to keep track of o
 Therefore we `fixup` all commits except for the first one and we `reword` that first commit to make sure it has the same name as our branch, namely `ak/css-updates`.
 
 * `git push -f` we now need to push the local changes on our branch to the remote version of our branch. Given we have changed the commit history by rebasing, this will not be possible unless we force the change with the `-f` flag.
-
-## 5. Notify on Slack
-
-When we merge in our changes on Github, Github Actions make sure that our code is deployed automatically. 
-
-Before doing this, we want to make sure the team is alerted to the fact that a deploy is about to take place in case anything goes wrong. 
-
-To do this we send a message to the `#deploy` channel on Slack with the url of the PR we are about to merge, like so:
-![PR on slack](/images/slack-pr.png)
-
-## 6. Rebase and Merge
 
 When merging, Github gives you multiple options. You can select the right one by clicking the carat in the merge button. 
  
