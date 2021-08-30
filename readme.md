@@ -5,3 +5,4 @@
 * [How we configure our dotfiles](/dotfiles.md)
 * [How we train](/trainingMaterials.md)
 * [How we CI/CD](/cicd.md)
+* [How we holiday](/holidays.md)
