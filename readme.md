@@ -6,3 +6,4 @@
 * [How we train](/trainingMaterials.md)
 * [How we CI/CD](/cicd.md)
 * [How we holiday](/holidays.md)
+* [How we backup Firestore](/firestore_backups.md)
