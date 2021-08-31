@@ -11,3 +11,6 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 * [How we CI/CD](/cicd.md)
 * [How we holiday](/holidays.md)
 * [How we backup Firestore](/firestore_backups.md)
+
+---
+![Wakeflow](/images/wakeflowlogo.png)
