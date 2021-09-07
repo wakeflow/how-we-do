@@ -1,5 +1,7 @@
 # Training Materials
 
+Here are some resources we use to learn our trade and keep up to date.
+
 ## CSS
 
 * [CSS Learning Guide](https://web.dev/learn/css*)
@@ -17,6 +19,7 @@
 ## Looker
 
 * [Tutorial](https://docs.looker.com/video-library/data-modeling)
+* [Video Tutorials](https://connect.looker.com/library/video)
 
 ## MessageBird
 
