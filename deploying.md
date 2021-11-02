@@ -30,11 +30,11 @@ When we merge in our changes on Github, Github Actions make sure that our code i
 
 Therefore before merging, we want to make sure the team is alerted to the fact that a deploy is about to take place in case anything goes wrong and the rest of the team needs to step in to help. 
 
-## 5. Squash and Merge
+## 5. Rebase
 
-Once you have notified the team, we `Squash and Merge` our branch.
+Once you have approval from at least one other team member, you rebase your changes. 
 
-Squashing means merging all of the individual commits you made on your branch into a single commit, so that we have a single commit message in the repo's history for the branch you're merging in. 
+This basically squashes all commits you have on your branch into a single one, so that the master branch only has one commit for all the changes you made on your branch. This keeps the git history of our master branch clean and easy to understand. 
 
 For example, in updating the CSS on our website, I might have made the following 3 commits:
 
@@ -44,19 +44,36 @@ For example, in updating the CSS on our website, I might have made the following
 
 Those commits are useful while I'm working on the branch, but in our master branch's git history we don't need that level of detail. We want a single message there, that tells us what happened at a higher level. This message is usually the branch name. 
 
-To squash these messages:
-1. view the PR on (for example) https://github.com/wakeflow/how-we-do/pull/2
-2. when merging, Github gives you multiple options. You can select the right one by clicking the carat in the merge button. We always use the `Squash and merge` option, so that we have a linear git history. 
+To rebase:
+1. `grbi origin/master` and then follow the instructions. 
+2. You should see someting like: 
 
-![squash and merge](/images/squash-and-merge.png) 
+    `pick 52a18f6 updated deploying.md`
 
-3. you'll be shown a window, like the one below, where you can enter the single commit message you'd like to show in the git history of the master branch, in this case `ak/css-updates`
+    `pick 35a32e9 updated images`
 
-![squash message](/images/squash-message.png)  
+    `pick b003d67 updates merge instructions`
 
-4. Click `Confirm squash and merge`
+3. Typically you'll want to edit this file like so:
+
+    `r 52a18f6 updated deploying.md` <- the `r` stands for reword and lets you rename your commit message
+
+    `f 35a32e9 updated images` <- the `f` stands for fixup and lets you incorporate these changes into the commit above, so that there is only one commit message
+
+    `f b003d67 updates merge instructions`
+
+## 6. Merge
+
+Once you have notified the team you can merge the PR.
+
+1. Check the git history is linear, by running `gl`. You should see someting like this:
+
+  ![Linear Git History](/images/object-action.png)
+
+2. If your branch is exactly one commit ahead of `master`, check out the master branch with `gc master`
+3. Run `git merge ak/css-updates`
  
-## 6. Smoke test
+## 7. Smoke test
 
 After rebasing and merging, we make sure that the deploy completes successfully, by watching the github actions complete. 
 
