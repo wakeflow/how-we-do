@@ -81,6 +81,13 @@ Once the Github Actions have successfully completed, we do a smoke test of the a
 1. make sure everything works as expected
 2. make sure your changes are now live
 
+## 8. Clean up branches
+
+Now that the change has been successfully deployed, we no longer need the feature branch. Therefore we delete it, both locally and remotely, using the command `gdbb ak/css-updates` (gdbb stands for git delete both branches).
+
+Run `gl` to check your feature branch is no longer there.
+
+Success! You're done. 
 
 ## Questions
 
