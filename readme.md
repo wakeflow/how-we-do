@@ -12,6 +12,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 * [How we holiday](/holidays.md)
 * [How we backup Firestore](/firestore_backups.md)
 * [How we track events](/event_tracking.md)
+* [How we validate](/validation.md)
 * [How we promote](/progression.md)
 
 ---
