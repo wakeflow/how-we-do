@@ -5,6 +5,7 @@ This repo provides some documentation of our processes at Wakeflow. We share it 
 If you have any questions/comments/inspiration please don't hesitate to reach out to contact@wakeflow.io or contribute directly by making a Pull Request (see `How we contribute` below).
 
 * [How we contribute](/contributing.md)
+* [How we Javascript](/javascript.md)
 * [How we deploy](/deploying.md)
 * [How we configure our dotfiles](/dotfiles.md)
 * [How we train](/trainingMaterials.md)

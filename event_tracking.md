@@ -25,5 +25,5 @@ Invocation Created
 Analytics Viewed
 - flowId
 
-## Quetions
+## Questions
 If you have any questions about event tracking, reach out to andi@wakeflow.io
