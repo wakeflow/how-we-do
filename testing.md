@@ -4,6 +4,8 @@ Testing allows us to ensure our code behaves the way it is intented to and, more
 
 # Mocha
 
+`npm i mocha`
+
 Our preferred testing framework is called Mocha. Where possible we use this framework across projects, because it makes it easier for everyone on the team to specialise in the same testing framework.
 
 ## Example package.json scripts

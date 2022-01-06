@@ -34,7 +34,7 @@ We use eslint as our linter.
 
 Every codebase has a .eslintrc file that shares
 
-You can find our default .eslintrc file on [our dofiles repo]().
+You can find our default .eslintrc file on [our dofiles repo](https://github.com/wakeflow/dotfiles).
 
 
 ## Questions

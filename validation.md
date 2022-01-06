@@ -15,7 +15,7 @@ JSON-Schema is a standard (rather than an individual library) that allows you to
 
 The definition of the schema is a JSON-object and can be stored in a .json file in a /schemas folder.
 
-To familiarise yourself with the format that a JSON-Schema takes, please have a look at [json-schema.com](). TODO!!!!
+To familiarise yourself with the format that a JSON-Schema takes, please have a look at [json-schema.org](https://json-schema.org/learn/miscellaneous-examples.html).
 
 
 # Example JSON-Schema
