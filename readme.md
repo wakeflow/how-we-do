@@ -9,6 +9,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 * [How we deploy](/deploying.md)
 * [How we configure our dotfiles](/dotfiles.md)
 * [How we train](/trainingMaterials.md)
+* [How we test](/testing.md)
 * [How we CI/CD](/cicd.md)
 * [How we holiday](/holidays.md)
 * [How we backup Firestore](/firestore_backups.md)
