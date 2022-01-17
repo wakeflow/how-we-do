@@ -4,7 +4,11 @@ We use a github action to regularly take backups of Firestore on the projects th
 
 ## Setup
 1. Create a Google Storage Bucket, say with name: `gs://firestore-backups`
-2. Create a Service Account with `Editor` permissions for the Google Cloud Project
+2. Create a service account that has the following roles:
+```json
+[1] Cloud Datastore Import Export Admin
+[2] Storage Admin
+```
 3. Create a JSON key file for the service account
 4. Add the keyfile's content as a secret to the github repo. Call the secret `FIREBASE_BACKUP_GCLOUD_AUTH`
 5. create the file `.github/workflows/firestore_backup.yml` in your repo
