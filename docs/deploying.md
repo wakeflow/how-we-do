@@ -17,23 +17,23 @@ When the change is complete, we submit a pull request. The easiest way to do tha
 
 ## 3. Code Owner Review
 
-Every PR needs to be reviewed by a code owner of the repo. Github is configured in such a way that merging is not possible until this has taken place.  
+Every PR needs to be reviewed by a code owner of the repo. Github is configured in such a way that merging is not possible until this has taken place.
 
 ## 4. Rebase
 
-Once you have approval from at least one other team member, you rebase your changes. 
+Once you have approval from at least one other team member, you rebase your changes.
 
-This basically squashes all commits you have on your branch into a single one, so that the master branch only has one commit for all the changes you made on your branch. This keeps the git history of our master branch clean and easy to understand. 
+This basically squashes all commits you have on your branch into a single one, so that the master branch only has one commit for all the changes you made on your branch. This keeps the git history of our master branch clean and easy to understand.
 
 For example, in updating the CSS on our website, I might have made the following 3 commits:
 
-![Three commits](/images/three-commits.png)
+![Three commits](images/three-commits.png)
 
-Those commits are useful while I'm working on the branch, but in our master branch's git history we don't need that level of detail. We want a single message there, that tells us what happened at a higher level: `ak/css-updates`. This message is usually the branch name. 
+Those commits are useful while I'm working on the branch, but in our master branch's git history we don't need that level of detail. We want a single message there, that tells us what happened at a higher level: `ak/css-updates`. This message is usually the branch name.
 
 To rebase:
-1. `grbi origin/master` and then follow the instructions. 
-2. You should see someting like: 
+1. `grbi origin/master` and then follow the instructions.
+2. You should see someting like:
 
     `pick 52a18f6 updated deploying.md`
 
@@ -51,15 +51,15 @@ To rebase:
 
 ## 5. Notify on Slack
 
-Once we have got approval from a code owner to merge, we notify the rest of the team on Slack. 
+Once we have got approval from a code owner to merge, we notify the rest of the team on Slack.
 
 To do this, we send a message to the `#deploy` channel with the url of the PR we are about to merge, like so:
 
-![PR on slack](/images/slack-pr.png)
+![PR on slack](images/slack-pr.png)
 
-When we merge in our changes on Github, Github Actions make sure that our code is deployed automatically. 
+When we merge in our changes on Github, Github Actions make sure that our code is deployed automatically.
 
-Therefore before merging, we want to make sure the team is alerted to the fact that a deploy is about to take place in case anything goes wrong and the rest of the team needs to step in to help. 
+Therefore before merging, we want to make sure the team is alerted to the fact that a deploy is about to take place in case anything goes wrong and the rest of the team needs to step in to help.
 
 ## 6. Merge
 
@@ -67,15 +67,15 @@ Once you have notified the team you can merge the PR.
 
 1. Check the git history is linear, by running `gl`. You should see someting like this:
 
-  ![Linear Git History](/images/linear-history.png)
+  ![Linear Git History](images/linear-history.png)
 
 2. Check your branch is exactly one commit ahead of `master`. If not, rebase as explained above.
 3. Check out the master branch with `gc master`
 4. Run `git merge ak/css-updates`
- 
+
 ## 7. Smoke test
 
-After rebasing and merging, we make sure that the deploy completes successfully, by watching the github actions complete. 
+After rebasing and merging, we make sure that the deploy completes successfully, by watching the github actions complete.
 
 Once the Github Actions have successfully completed, we do a smoke test of the application, to:
 1. make sure everything works as expected
@@ -87,7 +87,7 @@ Now that the change has been successfully deployed, we no longer need the featur
 
 Run `gl` to check your feature branch is no longer there.
 
-Success! You're done. 
+Success! You're done.
 
 ## Questions
 

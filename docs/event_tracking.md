@@ -2,7 +2,7 @@
 
 ## Event naming convention
 We follow the Object -> Action naming convention
-![ObjectAction](/images/object-action.png)
+![ObjectAction](images/object-action.png)
 
 ## List of events and their properties
 
