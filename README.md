@@ -1,6 +1,6 @@
 # How we do at Wakeflow
 
-###### [docs](https://google.com)
+##### [docs](https://wakeflow.github.io/how-we-do/)
 
 > This repo provides some documentation of our processes at Wakeflow. We share it publically so that our client and potential hires can learn about how we go about our business.
 
