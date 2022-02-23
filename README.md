@@ -1,10 +1,10 @@
 # How we do at Wakeflow
 
-##### [docs](https://wakeflow.github.io/how-we-do/)
+[View on our website](https://wakeflow.github.io/how-we-do/)
 
-> This repo provides some documentation of our processes at Wakeflow. We share it publically so that our client and potential hires can learn about how we go about our business.
+This repo provides some documentation of our processes at Wakeflow. We share it publically so that our client and potential hires can learn about how we go about our business.
 
-> If you have any questions/comments/inspiration please don't hesitate to reach out to contact@wakeflow.io or contribute directly by making a Pull Request (see `How we contribute` below).
+If you have any questions/comments/inspiration please don't hesitate to reach out to contact@wakeflow.io or contribute directly by making a Pull Request (see `How we contribute` below).
 
 ## Coding
 
