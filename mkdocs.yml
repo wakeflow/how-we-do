@@ -1,7 +1,7 @@
 site_name: 'Wakeflow'
 
 repo_name: 'GitHub'
-repo_url: 'https://github.com/wakeflow/how-we-do-mkdocs'
+repo_url: 'https://github.com/wakeflow/how-we-do'
 
 # Configuration
 theme:
