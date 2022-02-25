@@ -3,8 +3,9 @@
 ## Timing
 
 Every year there are two dates where we systematically review the whole team and consider every team member for promotion. These are:
-* 31 March
-* 31 September
+
+- 31 March
+- 31 September
 
 Leading up to these dates we will collect feedback from clients and team members about your performance and consider whether a promotion has been earned. On these dates any promotions will be communicated. On average, developers should expect to be promoted every 12 to 18 months.
 
@@ -19,69 +20,69 @@ a solid point of reference.
 
 ### 1. Associate Developer
 
-* Pull Requests require multiple rounds of feedback to reach a mergeable state
-* The basics of a language or framework are mastered, but more advanced concepts
+- Pull Requests require multiple rounds of feedback to reach a mergeable state
+- The basics of a language or framework are mastered, but more advanced concepts
   are unfamiliar
-* Occasional issues following patterns and approaches within existing code bases
-* Most comfortable working on tightly scoped features or routine problems
-* Typically less than 2 years focused on a specific domain in a
+- Occasional issues following patterns and approaches within existing code bases
+- Most comfortable working on tightly scoped features or routine problems
+- Typically less than 2 years focused on a specific domain in a
   professional environment
 
 ### 2. Developer
 
-* Pull Requests require occasional discussion around approach or implementation
-* Clearly able to identify and follow predefined patterns or approaches in an
+- Pull Requests require occasional discussion around approach or implementation
+- Clearly able to identify and follow predefined patterns or approaches in an
   existing code base
-* Most comfortable working on clearly defined, well scoped features or
+- Most comfortable working on clearly defined, well scoped features or
   problems
-* Typically 2-5 years focused on a specific domain in a professional
+- Typically 2-5 years focused on a specific domain in a professional
   environment
-* Being able to decide the priority level of a bug and set of the appropriate course of action
-* Being able to understand user stories and translate them into technical requirements 
-* Being able to keep the client up to date on the day to day progress of a project 
+- Being able to decide the priority level of a bug and set of the appropriate course of action
+- Being able to understand user stories and translate them into technical requirements 
+- Being able to keep the client up to date on the day to day progress of a project 
 
 ### 3. Senior Developer
 
-* Pull Requests are a tool for communication of new features and a
+- Pull Requests are a tool for communication of new features and a
   spring-board for higher-level discussions around approach
-* Experienced and comfortable through the entire lifecycle of a feature, from
+- Experienced and comfortable through the entire lifecycle of a feature, from
   ideation to delivery
-* Can understand business drivers and make solid proposals to the relevant
+- Can understand business drivers and make solid proposals to the relevant
   stakeholders for building new features or refining existing ones
-* A subject matter expert in at least one programming environment
-* Typically 5-8 years focused on a specific domain in a professional
+- A subject matter expert in at least one programming environment
+- Typically 5-8 years focused on a specific domain in a professional
   environment
-* As Scrum Master, taking responsibility for making sure our scrum process happens
-* Line managing other team members
-* Managing all client communication on a project
-* Being able to attend sales meetings and bring your technical expertise to the conversation
-* Using your technical knowledge to put together a plan based on client requirements (Solutions Engineering)
+- As Scrum Master, taking responsibility for making sure our scrum process happens
+- Line managing other team members
+- Managing all client communication on a project
+- Being able to attend sales meetings and bring your technical expertise to the conversation
+- Using your technical knowledge to put together a plan based on client requirements (Solutions Engineering)
 
 ### 4. Tech Lead
 
-* Pull Requests are a mentoring tool to engage less experienced teammates and
+- Pull Requests are a mentoring tool to engage less experienced teammates and
   showcase best practices
-* Highly adept at running and executing on multiple projects across multiple
+- Highly adept at running and executing on multiple projects across multiple
   domains
-* Heavily involved in setting and maintaining professional standards for the
+- Heavily involved in setting and maintaining professional standards for the
   organisation as a whole
-* A subject matter expert in a number of programming environments
-* Training other developers on both technical and non technical skills 
-* Confident building and running small teams through substantial projects
-* Typically 8-12 years focused on a specific domain in a professional
+- A subject matter expert in a number of programming environments
+- Training other developers on both technical and non technical skills 
+- Confident building and running small teams through substantial projects
+- Typically 8-12 years focused on a specific domain in a professional
   environment
 
 ### 5. VP of Engineering
 
-* Focus on defining and progressing processes and innovation at a company-wide
+- Focus on defining and progressing processes and innovation at a company-wide
   level
-* Fully capable of designing, owning and running entirely new, non-trivial
+- Fully capable of designing, owning and running entirely new, non-trivial
   systems
-* Confident building and running larger teams through long-running, complex
+- Confident building and running larger teams through long-running, complex
   projects with multiple-stakeholders
-* Recognised widely in the industry as having made substantial material
+- Recognised widely in the industry as having made substantial material
   contributions and considered a subject matter expert by peers
-* Typically 12-15+ years focused on a specific domain in a professional
+- Typically 12-15+ years focused on a specific domain in a professional
   environment
 
 The bands are based on those set out by the team at
