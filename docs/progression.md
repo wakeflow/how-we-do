@@ -1,5 +1,15 @@
 # Career Progression
 
+## Timing
+
+Every year there are two dates where we systematically review the whole team and consider every team member for promotion. These are:
+* 31 March
+* 31 September
+
+Leading up to these dates we will collect feedback from clients and team members about your performance and consider whether a promotion has been earned. On these dates any promotions will be communicated. On average, developers should expect to be promoted every 12 to 18 months.
+
+## Developer bands
+
 The following bands are designed to provide a structure to help better
 understand current competencies and act as a starting point for individualised
 discussions around progress.
@@ -7,7 +17,7 @@ discussions around progress.
 The criteria set out in each band is by no means exhaustive, but aims to provide
 a solid point of reference.
 
-## Associate Developer
+### 1. Associate Developer
 
 * Pull Requests require multiple rounds of feedback to reach a mergeable state
 * The basics of a language or framework are mastered, but more advanced concepts
@@ -17,7 +27,7 @@ a solid point of reference.
 * Typically less than 2 years focused on a specific domain in a
   professional environment
 
-## Developer
+### 2. Developer
 
 * Pull Requests require occasional discussion around approach or implementation
 * Clearly able to identify and follow predefined patterns or approaches in an
@@ -30,7 +40,7 @@ a solid point of reference.
 * Being able to understand user stories and translate them into technical requirements 
 * Being able to keep the client up to date on the day to day progress of a project 
 
-## Senior Developer
+### 3. Senior Developer
 
 * Pull Requests are a tool for communication of new features and a
   spring-board for higher-level discussions around approach
@@ -47,7 +57,7 @@ a solid point of reference.
 * Being able to attend sales meetings and bring your technical expertise to the conversation
 * Using your technical knowledge to put together a plan based on client requirements (Solutions Engineering)
 
-## Tech Lead
+### 4. Tech Lead
 
 * Pull Requests are a mentoring tool to engage less experienced teammates and
   showcase best practices
@@ -61,7 +71,7 @@ a solid point of reference.
 * Typically 8-12 years focused on a specific domain in a professional
   environment
 
-## VP of Engineering
+### 5. VP of Engineering
 
 * Focus on defining and progressing processes and innovation at a company-wide
   level
