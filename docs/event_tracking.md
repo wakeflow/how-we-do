@@ -12,7 +12,7 @@ For example, a person could have the following traits:
 {
   name: "Joe Bloggs",
   email: "joe@wakeflow.io",
-  account_type: "premium"
+  accountType: "premium"
 }
 ```
 
@@ -24,6 +24,8 @@ While an event (say, a "Form Submitted" event) could have the following properti
   source: "ad_campaign_412"
 }
 ```
+Traits and properties are always defined in camelCase e.g. `accountType` rather than snake_cse or any other case.
+
 ## Event naming convention
 We follow the `Object Action` naming convention. This means that all event names start in the affected Object and then describe the action that has affected this Object. For example:
 
@@ -31,7 +33,7 @@ We follow the `Object Action` naming convention. This means that all event names
 - Application Submitted
 - Account Created
 
-The names of events are always given in Title Case, e.g. `User Signed Up`, rather than snake_case e.g. `user_signed_up` or any other case.
+The names of events are always given in Title Case, e.g. `User Signed Up`, rather than snake_case or any other case.
 
 ## List of identify calls and their properties
 ```
@@ -50,6 +52,33 @@ analytics.track('User Logged In',{
 
 analytics.track('User Logged Out')
 ```
+
+## Server-side events
+As per the (Segment Documentation)[https://segment.com/docs/connections/sources/catalog/libraries/server/node/], we use the `analytics-node` package to send events from our servers.
+
+`npm i analytics-node`
+
+segment.js
+```
+import Analytics from 'analytics-node'
+
+export const analytics = new Analytics(token)
+```
+
+example calls
+```
+analytics.identify({
+  userId: contact.email,
+  traits: contact,
+})
+
+analytics.track({
+  userId: contact.email,
+  event: `Campaign Invoked`,
+  properties: { campaignId: `mb` },
+})
+```
+
 
 ## Questions
 If you have any questions about event tracking, reach out to andi@wakeflow.io
