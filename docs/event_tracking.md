@@ -1,8 +1,8 @@
 # How we track events
 
-We use Segment to track user events that help us understand our users behaviour. Each event is associated with a user. Therefore in order to track an event, it needs to be linked to an individual user.
+We track user events that help us understand our users' behaviour. Each event is associated with the email address of a user. Therefore in order to track an event, it needs to be linked to an individual email address.
 
-## Users and traits, Events and properties
+## Contacts and traits, Events and properties
 
 The details we associate with users are called traits while the details we associate with events are called properties.
 
@@ -35,50 +35,31 @@ We follow the `Object Action` naming convention. This means that all event names
 
 The names of events are always given in Title Case, e.g. `User Signed Up`, rather than snake_case or any other case.
 
+## How to log Events
+
+We use our in-house `wakeflow-events` package to track events. See instructions for how to use it [here](https://github.com/wakeflow/wakeflow-events).
+
 ## List of identify calls and their properties
 ```
-analytics.identify({
+wakeflowEvents.identify('joe@wakeflow.io',{
   name:'Joe Bloggs',
-  email:'joe@wakeflow.io',
-  createdAt: new Date()
+  address:{
+    street: '10 Somewhere Road',
+    city: 'London',
+    postcode: 'W2 6BC'
+    country: 'UK'
+  }
 })
 ```
 
 ## List of track calls and their properties
 ```
-analytics.track('User Logged In',{
-  method // 'EmailAndPassword' || 'Google'
+wakeflowEvents.track('joe@wakeflow.io','User Logged In',{
+  method:'EmailAndPassword'
 })
 
-analytics.track('User Logged Out')
+wakeflowEvents.track('joe@wakeflow.io','User Logged Out')
 ```
-
-## Server-side events
-As per the (Segment Documentation)[https://segment.com/docs/connections/sources/catalog/libraries/server/node/], we use the `analytics-node` package to send events from our servers.
-
-`npm i analytics-node`
-
-segment.js
-```
-import Analytics from 'analytics-node'
-
-export const analytics = new Analytics(token)
-```
-
-example calls
-```
-analytics.identify({
-  userId: contact.email,
-  traits: contact,
-})
-
-analytics.track({
-  userId: contact.email,
-  event: `Campaign Invoked`,
-  properties: { campaignId: `mb` },
-})
-```
-
 
 ## Questions
 If you have any questions about event tracking, reach out to andi@wakeflow.io
