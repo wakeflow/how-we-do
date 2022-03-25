@@ -10,11 +10,15 @@ We use a github action to regularly take backups of Firestore on the projects th
 [2] Storage Admin
 ```
 3. Create a JSON key file for the service account
-4. Add the keyfile's content as a secret to the github repo. Call the secret `FIREBASE_BACKUP_GCLOUD_AUTH`
-5. create the file `.github/workflows/firestore_backup.yml` in your repo
-6. Copy the below contents into that file
-7. Create a Pull Request
-8. Once the PR is approved, a Firestore backup will be taken every night at 3am.
+4. Use the command given below (replacing the path with the path to your downloaded keyfile) to get the base64 encoded keyfile from google cloud terminal
+```
+base64 path/to/your/downloaded/keyfile.json
+```
+5. Add the base64 encoded keyfile as a secret to the github repo. Call the secret `FIREBASE_BACKUP_GCLOUD_AUTH`
+6. create the file `.github/workflows/firestore_backup.yml` in your repo
+7. Copy the below contents into that file
+8. Create a Pull Request
+9. Once the PR is approved, a Firestore backup will be taken every night at 3am.
 
 ```
 name: Firestore backup
