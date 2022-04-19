@@ -11,6 +11,8 @@ To take a holiday you need to submit a request at least two weeks before your fi
 
 If you want to take public holiday on the date of the public holiday, you do not need to submit a request in advance, but please let the team know nonetheless.
 
+After the holiday request has been accepted the dates should be visible on the wakeflow holidays calender. If they are not please contact contact@wakeflow.io to have them added.
+
 ## Carrying over holiday days to the next year
 The holiday year runs between 1 January and 31 December. If at the of the year you have days left over, you can take up to 5 of them over into the next year. If you have more than 5 days of holiday left untaken, they will be lost. 
 
