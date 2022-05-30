@@ -30,6 +30,7 @@ nav:
   - Train: trainingMaterials.md
   - Holidays: holidays.md
   - Progression: progression.md
+  - Developer Bands: developer_bands.md
   - Contributing: contributing.md
   - Dotfiles: dotfiles.md
   - Javascript: javascript.md
