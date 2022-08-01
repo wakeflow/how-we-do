@@ -13,6 +13,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 - [How we deploy](/docs/deploying.md)
 - [How we configure our dotfiles](/docs/dotfiles.md)
 - [How we test](/docs/testing.md)
+- [How we define good software](/docs/good_software.md)
 - [How we CI/CD](/docs/cicd.md)
 - [How we backup Firestore](/docs/firestore_backups.md)
 - [How we track events](/docs/event_tracking.md)
