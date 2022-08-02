@@ -27,19 +27,24 @@ theme:
 
 nav:
   - Home: index.md
-  - Train: trainingMaterials.md
-  - Holidays: holidays.md
-  - Progression: progression.md
-  - Developer Bands: developer_bands.md
-  - Contributing: contributing.md
-  - Dotfiles: dotfiles.md
-  - Javascript: javascript.md
-  - Testing: testing.md
-  - Validation: validation.md
-  - Deploying: deploying.md
-  - CI/CD: cicd.md
-  - Firestore Backups: firestore_backups.md
-  - Event Tracking: event_tracking.md
+  - Coding:
+    - Good Software: good_software.md
+    - Contributing: contributing.md
+    - Dotfiles: dotfiles.md
+    - Javascript: javascript.md
+    - Testing: testing.md
+    - Validation: validation.md
+    - Deploying: deploying.md
+    - CI/CD: cicd.md
+    - Firestore Backups: firestore_backups.md
+    - Event Tracking: event_tracking.md
+  - Professional Development:
+    - Train: trainingMaterials.md
+    - Holidays: holidays.md
+    - Progression: progression.md
+    - Developer Bands: developer_bands.md
+  
+
 
 plugins:
   - search
