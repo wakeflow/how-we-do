@@ -32,3 +32,7 @@ Here are some resources we use to learn our trade and keep up to date.
 ## Git
 
 * [Twilio Quest Git 🕯️](https://www.twilio.com/quest/learn/open-source)
+
+## Segment
+
+* [Segment Academy](https://segment.com/academy/)
