@@ -41,7 +41,6 @@ a solid point of reference.
 - A subject matter expert in at least one programming environment
 - Typically 5-8 years focused on a specific domain in a professional
   environment
-- As Scrum Master, taking responsibility for making sure our scrum process happens
 - Line managing other team members
 - Managing all client communication on a project
 - Being able to attend sales meetings and bring your technical expertise to the conversation
