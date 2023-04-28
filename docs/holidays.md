@@ -13,6 +13,9 @@ If you want to take public holiday on the date of the public holiday, you do not
 
 After the holiday request has been accepted the dates should be visible on the wakeflow holidays calender. The holiday calendar should have been shared with you and should be visible at https://calendar.google.com If it is not please contact contact@wakeflow.io to have it added.
 
+## Logging 8h to the project "Holiday"
+Each day that you take holiday you must book 8h to the projet "Holiday" on https://team.wakeflow.io/this-month
+
 ## Carrying over holiday days to the next year
 The holiday year runs between 1 January and 31 December. If at the of the year you have days left over, you can take up to 5 of them over into the next year. If you have more than 5 days of holiday left untaken, they will be lost. 
 
