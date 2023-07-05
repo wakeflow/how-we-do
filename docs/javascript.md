@@ -26,15 +26,6 @@ export default func
 
 Wherever possible we use the Module syntax.
 
-# 2. Eslint
-
-When working as a team, using a linter ensures a shared style of coding. This helps everyone immediately get their bearings when looking at a colleague's latest work. 
-
-We use eslint as our linter. 
-
-Every codebase has a .eslintrc file that shares
-
-You can find our default .eslintrc file on [our dofiles repo](https://github.com/wakeflow/dotfiles).
 
 
 ## Questions

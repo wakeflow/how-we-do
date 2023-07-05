@@ -33,6 +33,12 @@ nav:
     - Dotfiles: dotfiles.md
     - Javascript: javascript.md
     - Testing: testing.md
+    - API Requests: api_requests.md
+    - Dates: dates.md
+    - Sorting arrays: sorting_arrays.md
+    - Styling: css.md
+    - Linting: linting.md
+    - Secrets: secrets.md
     - Validation: validation.md
     - Deploying: deploying.md
     - CI/CD: cicd.md

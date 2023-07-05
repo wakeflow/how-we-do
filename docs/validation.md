@@ -19,7 +19,7 @@ To familiarise yourself with the format that a JSON-Schema takes, please have a 
 
 
 # Example JSON-Schema
-```
+```javascript
 const schema = {
   type: 'object',
   required: [id,status],
