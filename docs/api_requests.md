@@ -4,7 +4,7 @@ At wakeflow, we follow a consistent approach when it comes to making API request
 
 
 ## Install
-To get started with `styled-components`, you can install it using npm or yarn:
+To get started with `axios`, you can install it using npm or yarn:
 ```bash
 npm i axios
 ```
@@ -35,7 +35,7 @@ export const createMessagebirdContact = async data => {
       console.log(err.response?.data)
       console.log(err.message)
       console.log(err.response?.status)
-      console.log(`createMessagebirdContact`)
+      console.log(`createMessagebirdContactError`)
     throw err
   }
 }

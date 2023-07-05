@@ -3,7 +3,7 @@
 At wakeflow, we follow a consistent approach to sorting arrays in our front-end and back-end development. For array sorting operations, we leverage the `sort-array` package, which provides a convenient and flexible solution. In this guide, we'll explore how `sort-array` enables us to efficiently sort arrays and maintain consistency across our projects.
 
 ## Install
-To get started with `styled-components`, you can install it using npm or yarn:
+To get started with `sort-array`, you can install it using npm or yarn:
 ```bash
 npm i sort-array
 ```

@@ -3,7 +3,7 @@
 At wakeflow, we adhere to a consistent approach when it comes to date manipulation in our front-end and back-end development. We utilize the `Day.js` library as our preferred choice for handling date and time operations. In this guide, we'll explore the benefits of `Day.js` and how it ensures consistency across our projects.
 
 ## Install
-To get started with `styled-components`, you can install it using npm or yarn:
+To get started with `day.js`, you can install it using npm or yarn:
 ```bash
 npm i dayjs
 ```
