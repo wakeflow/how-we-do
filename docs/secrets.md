@@ -25,12 +25,12 @@ API_KEY=abcdef123456
 ```
 
 
-In Node.js ONLY, import and declare the following in app.js to be able to gain access to access the environment variables. No need to do this in React.js
+In Node.js ONLY, import and declare the following in app.js in order for your project to have access to environment variables. No need to do this step in React.js
 ```javascript
 import dotenv from 'dotenv';
 dotenv.config();
 ```
-To access enviroment variables in Node.js and React.js use:
+To use an enviroment variables in Node.js and React.js use:
 ```javascript
 const apiKey = process.env.API_KEY
 ```
