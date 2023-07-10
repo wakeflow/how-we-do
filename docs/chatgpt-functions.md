@@ -1,10 +1,8 @@
 # Wakeflow ChatGPT
 
-You can develop functions for ChatGPT and install them on Wakeflow. 
+You can develop functions for ChatGPT and install them on Wakeflow. You will be paid $0.01 for every time your function is called.
 
 A function is essentially a piece of functionality that can be made available to ChatGPT. ChatGPT itself decides when to make use of the function. For example, if you ask ChatGPT "Show me a Pulp Fiction meme" and it has a function available that is called "getMeme" and has a description like "returns the url of a meme of the theme the user asked for", then it will likely call that function to get the url of a meme and reply with that url. 
-
-You will be paid $0.01 for every time your function is called.
 
 
 ## Instructions
@@ -20,8 +18,11 @@ Here is a schematic of the overall flow required to publish a function on Wakefl
 ![Instructions](https://www.wakeflow.io/instructions.png)
 
 To develop a function you need to 
+1. Host an application that makes the function and its docs available
+2. Register your function with Wakeflow
+3. "Install" the function on your WhatsApp number
 
-### 1. Host an application that makes two endpoints available:
+### 1. Host an application that makes the function and its docs available
      - /docs
      - /function
 
@@ -50,7 +51,7 @@ and get a response payload like so:
 { "meme": "https://i.kym-cdn.com/photos/images/original/002/092/391/2b5" }
 ```
 
-### 2. Make an API call to register your function with Wakeflow:
+### 2. Register your function with Wakeflow:
 
 Once your service is deployed, up and running, you can register it with Wakeflow. To do so:
 
@@ -72,7 +73,7 @@ This will return a payload containing the functionId like so:
   { "functionId": "abc123" }
 ```
 
-### 3. "Install" the function
+### 3. "Install" the function on your WhatsApp number
 
 You can then "install" the function for your personal whatsapp number by making a POST request like so:
 
