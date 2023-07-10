@@ -100,6 +100,6 @@ we'll make it universally available for anyone to install in our App Store.
 If you get stuck or need any help. Please don't hesitate to contact us by whatsapping: +447500172268. Any feedback is always welcome.
 
 ## The result
-<img src="https://www.wakeflow.io/pulpfiction.png" alt="Pulp Fiction Meme" style="width:300px;"/>
+<img src="https://www.wakeflow.io/pulpfiction.png" alt="Pulp Fiction Meme" style="width:400px;"/>
 
 
