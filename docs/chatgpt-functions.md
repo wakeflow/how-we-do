@@ -47,7 +47,7 @@ POST https://your.service.com/function
 ```
 and get a response payload like so:
 ```json
-{ meme: "https://i.kym-cdn.com/photos/images/original/002/092/391/2b5" }
+{ "meme": "https://i.kym-cdn.com/photos/images/original/002/092/391/2b5" }
 ```
 
 ### 2. Make an API call to register your function with Wakeflow:
