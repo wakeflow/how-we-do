@@ -12,7 +12,7 @@
 ---
 
 ## Introduction
-Wakeflow GPT seamlessly integrates with WhatsApp, leveraging the power of GPT to curate a personalized AI assistant tailored for each user. Dive into our comprehensive documentation to explore our template, empowering you to craft custom functions for the AI assistant. Moreover, our guides elucidate how to utilize these functions, enhancing the capabilities and enriching the user experience.
+Wakeflow GPT seamlessly integrates with WhatsApp, leveraging the power of GPT to curate a personalized AI assistant tailored for each user. Please follow the instructions in the documentation to get started with Wakeflow GPT.
 
 ---
 ## Using Wakeflow GPT with the Node-Template
