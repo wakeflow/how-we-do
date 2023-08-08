@@ -25,7 +25,7 @@ To get started with our Wakeflow GPT functions, we recommend using our `node-tem
    git clone https://github.com/wakeflow/node-template.git
     ```
 
-Refer to the README file to learn how to utilize the template for crafting your custom functions.
+Refer to the README file to learn how to utilize the template for your custom functions.
 
 ---
 
