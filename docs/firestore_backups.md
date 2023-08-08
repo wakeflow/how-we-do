@@ -10,7 +10,7 @@ We use a github action to regularly take backups of Firestore on the projects th
 [2] Storage Admin
 ```
 3. Create a JSON key file for the service account
-4. Use the command given below (replacing the path with the path to your downloaded keyfile) to get the base64 encoded keyfile from google cloud terminal
+4. Use the command given below (replacing the path with the path to your downloaded keyfile) to base64 encode the keyfile
 ```
 base64 path/to/your/downloaded/keyfile.json
 ```
