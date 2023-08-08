@@ -17,7 +17,7 @@ Wakeflow GPT seamlessly integrates with WhatsApp, leveraging the power of GPT to
 ---
 ## Using Wakeflow GPT with the Node-Template
 
-To integrate Wakeflow GPT into your Node.js projects with ease, we recommend using our `node-template`. Here's how you can get started:
+To get started with our Wakeflow GPT functions, we recommend using our `node-template`. Here's how you can get started:
 
 1. **Clone the Repository**
    Begin by cloning the `node-template` repository from GitHub:
