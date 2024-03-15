@@ -23,6 +23,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 * [How we validate](validation.md)
 
 ## Professional Development
+* [How we interview candidates](interview.md)
 * [How we onboard](onboard.md)
 * [How we train](trainingMaterials.md)
 * [How we holiday](holidays.md)

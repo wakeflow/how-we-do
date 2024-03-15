@@ -21,6 +21,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 
 ## Professional Development
 
+- [How we interview candidates](/docs/interview.md)
 - [How we onboard](/docs/onboard.md)
 - [How we train](/docs/trainingMaterials.md)
 - [How we holiday](/docs/holidays.md)
