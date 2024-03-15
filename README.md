@@ -6,6 +6,15 @@ This repo provides some documentation of our processes at Wakeflow. We share it 
 
 If you have any questions/comments/inspiration please don't hesitate to reach out to contact@wakeflow.io or contribute directly by making a Pull Request (see `How we contribute` below).
 
+
+## Professional Development
+
+- [How we interview candidates](/docs/interview.md)
+- [How we onboard](/docs/onboard.md)
+- [How we train](/docs/trainingMaterials.md)
+- [How we holiday](/docs/holidays.md)
+- [How we promote](/docs/progression.md)
+
 ## Coding
 
 - [How we define good software](/docs/good_software.md)
@@ -19,13 +28,16 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 - [How we track events](/docs/event_tracking.md)
 - [How we validate](/docs/validation.md)
 
-## Professional Development
+## Our Microservices
 
-- [How we interview candidates](/docs/interview.md)
-- [How we onboard](/docs/onboard.md)
-- [How we train](/docs/trainingMaterials.md)
-- [How we holiday](/docs/holidays.md)
-- [How we promote](/docs/progression.md)
+There are a number of microservies that we have developed in-house that we universally use on our projects:
+
+- [tokens.wakeflow.io](https://tokens.wakeflow.io) for authenticating
+- [timer.wakeflow.io](https://timer.wakeflow.io) for delaying API calls
+- [emails.wakeflow.io](https://emails.wakeflow.io) for sending emails
+- [2fa.wakeflow.io](https://2fa.wakeflow.io) for multi-factor authentication
+- [payments.wakeflow.io](https://payments.wakeflow.io) for taking payments
+- [team.wakeflow.io](https://team.wakeflow.io) for internal affairs
 
 ---
 

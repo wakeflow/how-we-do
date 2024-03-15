@@ -23,6 +23,10 @@ If you're interested in getting a job at Wakeflow there a number of steps in the
 
 - The duration of the Pair Programming Session is 3 hours, so that we have a good amount of time to get to a solution.
 
+### 5. Job Offer
+
+- If you do well on the Pair Programming Session we are sure you'll be a valuable member of the team and we will make you a job offer. Typically we'd want you to start as soon as possible!
+
 
 ### Questions
 
