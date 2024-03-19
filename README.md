@@ -38,6 +38,7 @@ There are a number of microservies that we have developed in-house that we unive
 - [2fa.wakeflow.io](https://2fa.wakeflow.io) for multi-factor authentication
 - [payments.wakeflow.io](https://payments.wakeflow.io) for taking payments
 - [team.wakeflow.io](https://team.wakeflow.io) for internal affairs
+- [db.wakeflow.io](https://db.wakeflow.io) for quick DB requirements
 
 ---
 
