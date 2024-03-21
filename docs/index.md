@@ -35,6 +35,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 There are a number of microservies that we have developed in-house that we universally use on our projects:
 
 * [tokens.wakeflow.io](https://tokens.wakeflow.io) for authenticating
+* [events.wakeflow.io](https://tokens.wakeflow.io) for event tracking 
 * [timer.wakeflow.io](https://timer.wakeflow.io) for delaying API calls
 * [emails.wakeflow.io](https://emails.wakeflow.io) for sending emails
 * [2fa.wakeflow.io](https://2fa.wakeflow.io) for multi-factor authentication
