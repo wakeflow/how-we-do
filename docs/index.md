@@ -42,6 +42,7 @@ There are a number of microservies that we have developed in-house that we unive
 * [payments.wakeflow.io](https://payments.wakeflow.io) for taking payments
 * [team.wakeflow.io](https://team.wakeflow.io) for internal affairs
 * [db.wakeflow.io](https://db.wakeflow.io) for quick DB requirements
+* [files.wakeflow.io](https://files.wakeflow.io) for non-public file storage
 
 
 ---
