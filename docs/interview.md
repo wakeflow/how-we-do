@@ -27,6 +27,11 @@ If you're interested in getting a job at Wakeflow there a number of steps in the
 
 - If you do well on the Pair Programming Session we are sure you'll be a valuable member of the team and we will make you a job offer. Typically we'd want you to start as soon as possible!
 
+### 6. Probation Period
+
+- To make 100% sure it's a good fit, we have a 3 months probation period during which either side can decide it isnt working out and break up the relationship without notice. After that we commit to each other with a 3 month notice period. 
+
+
 
 ### Questions
 
