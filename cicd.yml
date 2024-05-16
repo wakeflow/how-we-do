@@ -1,0 +1,32 @@
+name: Lint, Test, Build and Deploy to Firebase
+
+on:
+  push:
+    branches:
+      - master
+
+jobs:
+  build:
+    name: lint, test and build 
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout Repo
+        uses: actions/checkout@master
+      - name: setup node environment 
+        uses: actions/setup-node@v2
+        with:
+          node-version: 12
+      - name: npm ci
+        run: npm ci 
+      - name: run linter
+        uses: eslint/github-action@v0
+      - name: run mocha
+        run: npm test 
+      - name: build
+        run: npm run build
+      - name: Deploy to Firebase Hosting
+        uses: w9jds/firebase-action@master
+        with:
+          args: deploy --only hosting
+        env:
+          FIREBASE_TOKEN: ${{ secrets.FIREBASE_TOKEN }}
