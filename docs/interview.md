@@ -6,16 +6,15 @@ If you're interested in getting a job at Wakeflow there a number of steps in the
 
 - If you're interested in working for Wakeflow, the first step is to take our quiz. You have 5 minutes to complete it and it is available [here](https://events.wakeflow.io/links/11?utm=how_we_do_interview). If you score well enough on the quiz you're invited to the next stage:
 
-### 2. 15min Interview
-
-- This is a quick informal chat to see whether what you're looking for and what we're looking for is a good match. We'll have some questions for you and give you a chance to ask us some questions as well.
-
-### 3. Quick Coding Challenge
+### 2. Quick Coding Challenge
 
 - [func.live](https://func.live) is one of our side projects. It is a collection of cloud functions that you can use anywhere (via API, as a Javascript package, as a Python Package, in Google Sheets, from our CLI, etc.)
 
 - This task requires you to build a new function that is not already on func.live and to submit it to the platform. Details can be found on the [contributing page](https://www.func.live/contributing).
 
+### 3. 15min Interview
+
+- This is a quick informal chat to see whether what you're looking for and what we're looking for is a good match. We'll have some questions for you and give you a chance to ask us some questions as well.
 
 ### 4. Pair Programming Session
 
