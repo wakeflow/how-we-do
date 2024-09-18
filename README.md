@@ -22,7 +22,7 @@ If you have any questions/comments/inspiration please don't hesitate to reach ou
 - [How we Javascript](/docs/javascript.md)
 - [How we CI/CD](/docs/cicd.md)
 - [How we deploy](/docs/deploying.md)
-- [How we handle secrets](secrets.md)
+- [How we handle secrets](/docs/secrets.md)
 - [How we configure our dotfiles](/docs/dotfiles.md)
 - [How we test](/docs/testing.md)
 - [How we backup Firestore](/docs/firestore_backups.md)
