@@ -1,40 +1,53 @@
-# Loading Environment Variables with `dotenv`
+# How we handle secrets
 
-At wakeflow, we adopt a standardized approach to loading environment variables in our front-end and back-end development. For managing environment variables, we utilize the `dotenv` package, which offers a simple and efficient solution. In this guide, we'll explore how `dotenv` enables us to load environment variables seamlessly and maintain consistency across our projects.
+In programming there are often secrets that need to stay secret. Examples are API keys, GCP credentials, passwords, db config details etc.
 
-## Install
+This is how we handle them:
 
-To start using `dotenv`, you can install it using npm or yarn:
-```bash
-npm i dotenv
-```
-or
+## GCP Secret Manager
 
-```bash
-yarn add dotenv
-```
-## Usage
+Most of our projects are deployed to the Google Cloud Platform. On there every project has its own Secret Manager. You can go see that on https://console.cloud.google.com/security/secret-manager
 
-### Create a `.env` file in the root directory of your project.
+We store our secrets on there.
 
-Define your environment variables in the `.env` file using the `KEY=VALUE` syntax. For example:
+We have an npm package that helps us use it. Please read the REAMDE.md for how to use it here: https://www.npmjs.com/package/@wakeflow/secrets
 
-```plaintext
-PORT=3000
-API_KEY=abcdef123456
-```
+`npm i @wakeflow/secrets`
+
+## Secrets for different environments
+
+If you want to store secrets for different environments you can do so by using a postfix. E.g. for the development environment you might save API_KEY_development in GCP Secret Manager
+
+If you then set `ENV=development` in your local .env file, our @wakeflow/secrets package will know to download `API_KEY_development` and save it to your .env file as `API_KEY`.
+
+In your production environment you can then set `ENV=production` and if GCP Secret Manager has `API_KEY_production` it will download that as `API_KEY` in the production environment.
+
+For more details, please read the README.md at https://www.npmjs.com/package/@wakeflow/secrets 
 
 
-In Node.js ONLY, import and declare the following in app.js in order for your project to have access to environment variables. No need to do this step in React.js
-```javascript
-import dotenv from 'dotenv';
-dotenv.config();
-```
-To use an enviroment variables in Node.js and React.js use:
-```javascript
-const apiKey = process.env.API_KEY
-```
+# Secrets != Environment variables
+
+Importantly, not everything is a secret. Environment variables are often not.
+
+E.g. if you want the app to run on localhost port 3012, then you might set `PORT=3012` in your .env file. That's a setting for you only. It shouldn't run on port 3012 in prod and not on your colleagues' computers either (because maybe they already run an app on their port 3012)
+
+This is a non-secret env var. It should live in your .env file. And that .env file should be .gitignored.
+
+# Secrets != Constants
+
+Constants also don't need to be secrets and also don't need to be stored in the Secret Manager. Constants don't change between different environments and are not secret.
+
+E.g. imagine your app needs to display a support email address like `support@wakeflow.io`. It's not secret and it doesn't change between environments. 
+
+This should just be saved in a `config.js` file in your codebase. That way it's easy to find and work with. (You can simply go to definition, rather than viewing the value in the GCP Secret Manager UI, which is a hassle)
+
+## Summary
+
+- Secrets go into secret manager
+- Non-secret env vars go in .env
+- Constants go in config.js
 
 ## Questions
+
 If you have any questions about this process, reach out to andi@wakeflow.io
 
