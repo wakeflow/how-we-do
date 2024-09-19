@@ -12,8 +12,6 @@ We store our secrets on there.
 
 We have an npm package that helps us use it. Please read the REAMDE.md for how to use it here: https://www.npmjs.com/package/@wakeflow/secrets
 
-`npm i @wakeflow/secrets`
-
 ## Secrets for different environments
 
 If you want to store secrets for different environments you can do so by using a postfix. E.g. for the development environment you might save API_KEY_development in GCP Secret Manager
