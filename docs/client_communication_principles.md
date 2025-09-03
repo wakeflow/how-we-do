@@ -49,6 +49,15 @@ Preparation is key to building confidence and running smooth, productive client 
 - Have mitigation strategies ready – know how you’ll respond if something is delayed or not working as expected.
 - Test demos beforehand if you’re planning to show a feature or screen.
 
+## Be Professional During Meetings
+
+Meetings are key moments to build trust, show value, and strengthen the client relationship. During every meeting:
+
+- **Listen actively** to what the client is saying — not just the words, but the problem behind the request.
+- **Acknowledge their challenges or concerns** without being defensive.
+- **Stay solution-focused** – even when issues arise, present a clear path forward.
+- **Share ideas or improvements** where relevant – even small suggestions can show that we care.
+- **Avoid internal distractions** – treat client time with the same respect you’d expect.
 
 ## Our Mindset
 
