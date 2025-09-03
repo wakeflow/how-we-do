@@ -29,6 +29,7 @@ nav:
   - Home: index.md
   - Coding:
     - Good Software: good_software.md
+    - Client Communication Principles: client_communication_principles.md
     - Contributing: contributing.md
     - Dotfiles: dotfiles.md
     - Javascript: javascript.md
